@@ -1,0 +1,95 @@
+html, body {
+  margin: 20px;
+}
+
+.pikaday-input {
+  border: none;
+  cursor: pointer;
+}
+
+.custom-class {
+  padding: 8px;
+  width: 320px;
+}
+
+.custom-class.is-bound {
+  box-shadow: 0 3px 10px 0px rgba(0,0,0,0.4);
+  border: none;
+  margin-top: 8px;
+}
+
+.custom-class .pika-lendar {
+  width: 100%;
+  margin: 0;
+}
+
+.pika-button {
+  background: #fff;
+  color: #666;
+}
+.custom-class .pika-lendar .pika-title {
+  margin: 10px 0;
+}
+.custom-class .pika-lendar .pika-title .pika-label {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.custom-class .pika-lendar .pika-title .pika-prev {
+  opacity: 1;
+  background-image: url('data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgMzA2IDMwNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzA2IDMwNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnIGlkPSJrZXlib2FyZC1hcnJvdy1sZWZ0Ij4KCQk8cG9seWdvbiBwb2ludHM9IjI0Ny4zNSwyNzAuMyAxMzAuMDUsMTUzIDI0Ny4zNSwzNS43IDIxMS42NSwwIDU4LjY1LDE1MyAyMTEuNjUsMzA2ICAgIiBmaWxsPSIjODg4ODg4Ii8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==');
+}
+
+.custom-class .pika-lendar .pika-title .pika-next {
+  opacity: 1;
+  background-image: url('data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgMzA2IDMwNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzA2IDMwNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnIGlkPSJjaGV2cm9uLXJpZ2h0Ij4KCQk8cG9seWdvbiBwb2ludHM9Ijk0LjM1LDAgNTguNjUsMzUuNyAxNzUuOTUsMTUzIDU4LjY1LDI3MC4zIDk0LjM1LDMwNiAyNDcuMzUsMTUzICAgIiBmaWxsPSIjODg4ODg4Ii8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==');
+}
+
+.custom-class .pika-lendar .pika-table th {
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.custom-class .pika-lendar .pika-table th abbr {
+  cursor: default;
+}
+
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week .pika-day {
+  border-radius: 0;
+  box-shadow: none;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week .is-outside-current-month .pika-day {
+  opacity: 1;
+  font-weight: normal;
+  color: #ccc;
+  cursor: pointer;
+  pointer-events: all;
+}
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week.is-selected .is-outside-current-month .pika-day {
+  color: #fff;
+}
+
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week:hover .pika-day,
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week.is-selected:hover .pika-day {
+  background-color: #eee;
+  color: #333;
+}
+
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week.is-selected:hover .pika-day {
+  color: #33aaff;
+}
+
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week:hover td:first-child .pika-day,
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week.is-selected td:first-child .pika-day {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius:  25px;
+}
+
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week:hover td:last-child .pika-day,
+.custom-class .pika-lendar .pika-table .pika-row.pick-whole-week.is-selected td:last-child .pika-day {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius:  25px;
+}
