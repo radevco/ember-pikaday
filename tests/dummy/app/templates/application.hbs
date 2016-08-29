@@ -22,3 +22,14 @@ Datepicker already disabled before it's rendered:
 Inputless datepicker:
 {{pikaday-inputless onSelection=(action (mut someDate))}}
 {{someDate}}
+
+<br>
+
+Week Datepicker:
+{{pikaday-input
+  value=startDate
+  theme="custom-class"
+  format='MM/DD/YY'
+  firstDay=0
+  onSelection=(action 'doSomethingWithSelectedValue')
+  options=(hash pickWholeWeek=true showDaysInNextAndPreviousMonths=true showTime=false)}}
