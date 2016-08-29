@@ -7,7 +7,9 @@ export default Ember.Controller.extend({
       this.set('startDate', null);
     },
     doSomethingWithSelectedValue(value) {
-      console.log(value);
+      // value is day or last day of selected week
+      let lastDayOfWeek = new Date(value);
+      let firstDayOfWeek = new Date(value.setDate(value.getDate() - 6));
     }
   }
 });
