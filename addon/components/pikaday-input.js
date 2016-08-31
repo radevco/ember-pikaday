@@ -3,7 +3,7 @@ import PikadayMixin from 'ember-pikaday/mixins/pikaday';
 
 export default Ember.Component.extend(PikadayMixin, {
   tagName: 'input',
-  classNames: ['pikaday-input'],
+  classNames: ['pikaday-input','ui','button'],
 
   attributeBindings: [
     'readonly',
